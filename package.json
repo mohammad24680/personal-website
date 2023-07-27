@@ -1,8 +1,6 @@
 {
   "name": "personal-website",
   "homepage": "https://mohammad24680.github.io/personal-website/",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
