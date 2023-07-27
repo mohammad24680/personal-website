@@ -1,0 +1,126 @@
+@media screen and (min-width: 768px) {
+  .ContactMe_items {
+    padding-top: 11vw;
+  }
+  .ContactMe_items_information {
+    padding-top: 4.5vw;
+    padding-bottom: 17vw;
+    flex-wrap: nowrap;
+  }
+  .information_box {
+    margin-top: 12.3vw;
+    margin-bottom: 16vw;
+    figure:nth-of-type(1) {
+      img {
+        width: 11vw;
+        height: 11vw;
+      }
+    }
+    h2 {
+      height: 11vw;
+      font-size: 3.4vw;
+      span {
+        font-size: 7.5vw;
+      }
+    }
+  }
+  .form,
+  .social_media {
+    width: 36.903vw;
+    height: 46.32vw;
+  }
+
+  .form {
+    margin: 0vw 0vw 0vw 0vw;
+    figure {
+      top: -24vw;
+      left: 7vw;
+      img {
+        width: 22.4862vw;
+        height: 31.5vw;
+      }
+    }
+    h4 {
+      font-size: 3.5vw;
+    }
+    div {
+      input {
+        padding: 2.5vw 0vw;
+        height: 5vw;
+        font-size: 1.3vw;
+      }
+      textarea {
+        height: 16vw;
+        padding: 1.2vw 0vw;
+        font-size: 1.4vw;
+      }
+    }
+  }
+  .Click_Me {
+    button {
+      font-size: 2.8vw;
+    }
+  }
+  .social_media {
+    > figure {
+      top: -12.8vw;
+      right: 14.7vw;
+      img {
+        width: 29.24vw;
+        height: 21vw;
+      }
+    }
+    > div {
+      padding: 2.3vw 0px;
+      h5 {
+        font-size: 1.45vw;
+      }
+      a {
+        font-size: 1.4vw;
+      }
+    }
+  }
+  .main_header {
+    font-size: 2.5vw;
+  }
+  .header_corner_right_midlle {
+    height: 22%;
+    div {
+      width: 3.525vw;
+      height: 3.525vw;
+      a {
+        font-size: 1.7vw !important;
+      }
+    }
+  }
+  .corners_page_number {
+    height: 10.5vw;
+    width: 10.6vw;
+    bottom: 3.8vw;
+    right: 1vw;
+    p {
+      font-size: 9vw;
+    }
+  }
+  .side_images {
+    > figure:nth-of-type(1) {
+      position: absolute;
+      bottom: 30vw;
+      transform: rotateZ(90deg);
+      left: -15vw;
+      z-index: 1;
+      img {
+        width: 45vw;
+      }
+    }
+    > figure:nth-of-type(2) {
+      position: absolute;
+      bottom: -0.5vw;
+      right: -12vw;
+      z-index: 1;
+      img {
+        width: 35vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) {
+  .header_corner {
+    height: 16vw;
+  }
+  .header_corner_leftbottom {
+    div:nth-of-type(1) {
+      figure {
+        img {
+          width: 33vw;
+          height: 33vw;
+        }
+      }
+    }
+    div:nth-of-type(2) {
+      padding-top: 4.5vw;
+      padding-bottom: 1.5vw;
+      h3 {
+        font-size: 2.8vw;
+        span {
+          font-size: 5vw;
+        }
+      }
+      h5 {
+        font-size: 2.5vw;
+      }
+    }
+  }
+  .header_main {
+    height: 90%;
+    flex: 0 0 89%;
+    max-width: 89%;
+  }
+  .header_main_left_piece {
+    margin-top: -36vw;
+    figure {
+      img {
+        width: 11.4vw;
+        height: 11.4vw;
+      }
+    }
+    h2 {
+      font-size: 4vw;
+      padding-left: 2.8vw;
+      span {
+        font-size: 7.5vw;
+      }
+    }
+  }
+  .header_name_information {
+    margin-top: -2vw;
+    margin-left: -2vw;
+    h1 {
+      font-size: 8.3vw;
+    }
+    figure {
+      margin-left: 7.5vw;
+      img {
+        width: 38.413vw;
+        height: 57vw;
+      }
+    }
+  }
+  .header_corners_page_number {
+    width: 10vw;
+    height: 11.5vw;
+    bottom: 2.2vw;
+    p {
+      font-size: 10vw;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@media screen and (min-width: 1201px) {
+  .Container_Second_Item {
+    div {
+      width: 22.917vw;
+      height: 19.445vw;
+    }
+    div:nth-of-type(1) {
+      figure:nth-of-type(1) {
+        top: -16.1vw;
+        left: 13vw;
+        img {
+          width: 13.691vw;
+          height: 16.645vw;
+        }
+      }
+    }
+    div:nth-of-type(3) {
+      figure:nth-of-type(1) {
+        top: -10.5vw;
+        right: 11vw;
+        img {
+          width: 20.334vw;
+          height: 14.153vw;
+        }
+      }
+    }
+  }
+}

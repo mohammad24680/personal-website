@@ -1,0 +1,60 @@
+.button {
+  position: fixed;
+  bottom: 2.5vw;
+  right: 4vw;
+  width: max-content;
+  height: max-content;
+  transition: 0.5s;
+  z-index: 5000;
+  background-color: #da0037;
+  color: white;
+  padding: 4vw;
+  border: 0;
+  border-radius: 2vw;
+  transition: 400ms ease;
+  transition-property: color, background-color, cursor, visibility, opacity;
+  cursor: auto;
+  &:hover {
+    background-color: white;
+    color: #da0037;
+    cursor: pointer;
+  }
+  > svg {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 576px) {
+  .button {
+    bottom: 2.5vw;
+    right: 2.5vw;
+    padding: 2.5vw;
+    border-radius: 1.5vw;
+    svg {
+      font-size: 3.5vw;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    padding: 2vw;
+    svg {
+      font-size: 2.6vw;
+    }
+  }
+}
+@media screen and (min-width: 993px) {
+  .button {
+    padding: 1.7vw;
+    svg {
+      font-size: 2.1vw;
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .button {
+    padding: 1.5vw;
+    svg {
+      font-size: 2vw;
+    }
+  }
+}

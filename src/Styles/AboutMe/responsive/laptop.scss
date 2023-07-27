@@ -1,0 +1,82 @@
+@media screen and (min-width: 993px) {
+  .information_container {
+    padding-top: 6vw;
+  }
+  .information_box {
+    margin-top: 65px;
+    padding-top: 4.5vw;
+  }
+  .first_box {
+    margin-top: 1.2vw;
+    figure:nth-of-type(1) {
+      img {
+        width: 11vw;
+        height: 11vw;
+      }
+    }
+    h2 {
+      height: 11vw;
+      font-size: 3.2vw;
+      span {
+        font-size: 7.1vw;
+      }
+    }
+    figure:nth-of-type(2) {
+      top: -3.2vw;
+      padding-right: 6vw;
+      img {
+        width: 38.278vw;
+        height: 52.375vw;
+      }
+    }
+  }
+  .personal_information {
+    padding: 5vw 0vw 3vw 0vw;
+    p {
+      flex: 0 0 55%;
+      font-size: 1.7vw;
+    }
+  }
+  .second_box {
+    h3 {
+      font-size: 2.2vw;
+    }
+    span {
+      font-size: 4.2vw;
+    }
+  }
+  .personal_details {
+    margin-top: 0vw;
+  }
+  .personal_details_box {
+    flex: 0 0 63%;
+    padding-bottom: 0vw;
+    div {
+      width: 30%;
+      h5 {
+        font-size: 1.8vw;
+      }
+      a {
+        font-size: 1.8vw;
+      }
+    }
+  }
+  .cv_button {
+    a {
+      width: 14vw;
+      height: 4vw;
+      font-size: 1.5vw !important;
+    }
+  }
+  .header_corners_page_number {
+    width: 8vw;
+    height: 8vw;
+    right: 1vw;
+    p {
+      font-size: 6.8vw;
+    }
+  }
+  .left_line {
+    display: block;
+  }
+}

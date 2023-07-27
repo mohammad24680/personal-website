@@ -1,0 +1,94 @@
+@media screen and (min-width: 993px) {
+  .header_head_top {
+    height: 11.472vh;
+  }
+  .header_corner_right_top {
+    display: block;
+  }
+  .header_corner_image {
+    display: block;
+    top: -7vw;
+    right: -10vw;
+    left: auto;
+    figure {
+      img {
+        width: 19.75vw;
+        opacity: 100%;
+        height: 19.75vw;
+      }
+    }
+  }
+  .header_corner {
+    height: 16vw;
+  }
+  .header_corner_leftbottom {
+    div:nth-of-type(1) {
+      bottom: -20vw;
+      left: -14vw;
+      figure {
+        img {
+          width: 33vw;
+          height: 32.723vw;
+        }
+      }
+    }
+    div:nth-of-type(2) {
+      padding-left: 1vw;
+      padding-top: 6vw;
+      padding-bottom: 1.1vw;
+      h3 {
+        font-size: 2.8vw;
+        padding-left: 0.8vw;
+        padding-top: 0px;
+        span {
+          font-size: 4vw;
+        }
+      }
+      h5 {
+        font-size: 2vw;
+        padding-left: 2vw;
+      }
+    }
+  }
+  .header_main {
+    height: 89%;
+  }
+  .header_main_left_piece {
+    margin-top: -30vw;
+    figure {
+      img {
+        width: 9.7vw;
+        height: 9.7vw;
+      }
+    }
+    h2 {
+      letter-spacing: 1px;
+      font-size: 3.4vw;
+      padding-left: 2.5vw;
+      span {
+        font-size: 5.8vw;
+      }
+    }
+  }
+  .header_name_information {
+    margin-top: 0vw;
+    margin-left: 1vw;
+    h1 {
+      font-size: 7.4vw;
+    }
+    figure {
+      img {
+        width: 32vw;
+        height: 45vw;
+      }
+    }
+  }
+  .header_corners_page_number {
+    width: 7vw;
+    height: 8.1vw;
+    right: 2vw;
+    p {
+      font-size: 7vw;
+    }
+  }
+}

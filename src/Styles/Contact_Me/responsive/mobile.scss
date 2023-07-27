@@ -1,0 +1,129 @@
+@media screen and (min-width: 320px) {
+  .ContactMe_items {
+    padding-top: 31vw;
+  }
+  .ContactMe_items_information {
+    padding-top: 9.5vw;
+    padding-bottom: 27vw;
+    flex-wrap: wrap;
+  }
+  .information_box {
+    margin-bottom: 27vw;
+    figure:nth-of-type(1) {
+      img {
+        width: 22vw;
+        height: 22vw;
+      }
+    }
+    h2 {
+      height: 22vw;
+      font-size: 7vw;
+      span {
+        font-size: 14vw;
+      }
+    }
+  }
+  .form,
+  .social_media {
+    width: 80.903vw;
+    height: 105.32vw;
+    margin: 0.2vw 3vw;
+  }
+  .form {
+    margin: 23vw 0vw 28vw 0vw;
+    figure {
+      top: -25vw;
+      left: 44vw;
+      img {
+        width: 50.4862vw;
+        height: 69.5vw;
+      }
+    }
+    h4 {
+      font-size: 8.1vw;
+    }
+    div {
+      flex: 0 0 98%;
+      max-width: 98%;
+      input {
+        padding: 6.5vw 0vw;
+        height: 10vw;
+        font-size: 3vw;
+      }
+      textarea {
+        height: 38vw;
+        padding: 1vw 0vw;
+        font-size: 3vw;
+      }
+    }
+  }
+  .Click_Me {
+    button {
+      font-size: 6.5vw;
+    }
+  }
+
+  .social_media {
+    > figure {
+      top: 130vw;
+      right: 20.5vw;
+      img {
+        width: 60.6118vw;
+        height: 43.667vw;
+      }
+    }
+    > div {
+      padding: 5.2vw 0px;
+      flex: 0 0 97%;
+      h5 {
+        font-size: 3.4vw;
+      }
+      a {
+        font-size: 3.2vw;
+      }
+    }
+  }
+  .main_header {
+    font-size: 5.2vw;
+  }
+  .header_corner_right_midlle {
+    height: 20%;
+    div {
+      width: 9.125vw;
+      height: 9.125vw;
+      a {
+        font-size: 4.2vw !important;
+      }
+    }
+  }
+  .corners_page_number {
+    height: 19.2vw;
+    width: 19vw;
+    right: 2.5vw;
+    bottom: 1.2vw;
+    p {
+      font-size: 16vw;
+    }
+  }
+  .side_images {
+    > figure:nth-of-type(1) {
+      position: absolute;
+      bottom: 240vw;
+      transform: rotateZ(90deg);
+      left: -27vw;
+      z-index: 1;
+      img {
+        width: 80vw;
+      }
+    }
+    > figure:nth-of-type(2) {
+      position: absolute;
+      bottom: 100.5vw;
+      right: -27vw;
+      z-index: 1;
+      img {
+        width: 75vw;
+      }
+    }
+  }
+}

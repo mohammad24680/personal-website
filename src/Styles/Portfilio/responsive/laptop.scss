@@ -1,0 +1,78 @@
+@media screen and (min-width: 993px) {
+  .MyPortfolio_items {
+    padding-top: 4vw;
+  }
+  .information_box {
+    figure:nth-of-type(1) {
+      img {
+        width: 11vw;
+        height: 11vw;
+      }
+    }
+    h2 {
+      height: 11vw;
+      font-size: 3.2vw;
+      span {
+        font-size: 7vw;
+      }
+    }
+    figure:nth-of-type(2) {
+      img {
+        width: 32.987vw;
+        height: 40.417vw;
+      }
+    }
+  }
+  .Items {
+    flex: 0 0 95%;
+    max-width: 95%;
+    div {
+      width: 38%;
+      padding: 1vw 0px;
+      p:nth-of-type(2) {
+        font-size: 4.5vw;
+      }
+      a {
+        flex: 0 0 100%;
+        figure {
+          img {
+            width: 36.056vw;
+            height: 24.806vw;
+            border-radius: 0.5vw;
+          }
+        }
+      }
+    }
+  }
+  .see_more {
+    margin-top: 0vw;
+    div {
+      a {
+        width: 14vw;
+        height: 3.8vw;
+        font-size: 1.9vw !important;
+      }
+    }
+  }
+  .side_images {
+    > figure:nth-of-type(1) {
+      top: 13vw;
+      img {
+        width: 50vw;
+      }
+    }
+    > figure:nth-of-type(2) {
+      bottom: 31vw;
+      img {
+        width: 50vw;
+      }
+    }
+  }
+  .corners_page_number {
+    height: 8vw;
+    width: 8vw;
+    p {
+      font-size: 6.8vw;
+    }
+  }
+}

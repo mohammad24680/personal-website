@@ -1,0 +1,103 @@
+@media screen and (min-width: 576px) {
+  .Myskills_items {
+    padding-top: 12vw;
+  }
+  .information_box {
+    figure:nth-of-type(1) {
+      img {
+        width: 17vw;
+        height: 17vw;
+      }
+    }
+    h2 {
+      height: 17vw;
+      font-size: 5vw;
+      span {
+        font-size: 11vw;
+      }
+    }
+    figure:nth-of-type(2) {
+      top: -7.8vw;
+      img {
+        width: 57.294vw;
+        height: 52.258vw;
+        opacity: 70%;
+      }
+    }
+  }
+  .Items {
+    flex: 0 0 75%;
+    padding: 5vw 1vw 2vw 1vw;
+    max-width: 75%;
+    justify-content: center;
+  }
+  .Items_box {
+    flex: 0 0 82%;
+    padding-bottom: 2vw;
+    h3 {
+      font-size: 4.1vw;
+      span {
+        font-size: 6vw;
+      }
+    }
+  }
+  .box {
+    padding: 2.5vw 0vw;
+    p:nth-of-type(1) {
+      font-size: 2.6vw;
+    }
+    p:nth-of-type(2) {
+      font-size: 2.3vw;
+      margin: 1.5vw 0vw;
+    }
+    div {
+      height: 0.8vw;
+    }
+  }
+  .other_skills {
+    flex: 0 0 85%;
+    height: 27.4vw;
+    padding: 2.4vw 0vw;
+    margin-bottom: 13vw;
+    h4 {
+      padding-top: 0px;
+      font-size: 4.2vw;
+      span {
+        font-size: 6vw;
+      }
+    }
+    p {
+      height: 4.5vw;
+      font-size: 2.5vw;
+      margin: 0vw 1vw;
+    }
+
+    p:nth-of-type(1),
+    p:nth-of-type(2) {
+      width: 8.5vw;
+    }
+    p:nth-of-type(3) {
+      width: 12vw;
+    }
+    p:nth-of-type(4) {
+      width: 14vw;
+    }
+    p:nth-of-type(5) {
+      width: 10vw;
+    }
+    p:nth-of-type(6) {
+      width: 13vw;
+    }
+    p:nth-of-type(7) {
+      width: 20vw;
+    }
+  }
+  .corners_page_number {
+    height: 15.2vw;
+    width: 15vw;
+    right: 1.8vw;
+    p {
+      font-size: 13vw;
+    }
+  }
+}

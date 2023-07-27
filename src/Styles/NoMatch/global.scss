@@ -1,0 +1,113 @@
+.information_container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url(/images/Header/stars-3750824_1280.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.information {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.information_box {
+  flex: 0 0 100%;
+  height: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.see_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    a {
+      background: #da0037;
+      animation: _pulse_111rm_1 2s infinite;
+      width: 17vw;
+      height: 5.5vw;
+      display: flex;
+      font-size: 2.8vw !important;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4vw;
+      transition: 0.3s;
+    }
+    a:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: #da0037 0 0 0 0;
+  }
+  80% {
+    box-shadow: #000000 0 0 0 0.7vw;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .see_more {
+    div {
+      a {
+        width: 35vw;
+        height: 13.5vw;
+        font-size: 6.5vw !important;
+        border-radius: 10vw;
+      }
+    }
+  }
+  h4 {
+    font-size: 15vw;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 576px) {
+  .information_box {
+    height: 45%;
+  }
+  .see_more {
+    div {
+      a {
+        width: 26vw;
+        height: 9.5vw;
+        font-size: 4.5vw !important;
+        border-radius: 6vw;
+      }
+    }
+  }
+  h4 {
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0;
+  }
+}
+@media screen and (min-width: 993px) {
+  .information_box {
+    height: 50%;
+  }
+  .see_more {
+    div {
+      a {
+        width: 17vw;
+        height: 5.5vw;
+        font-size: 2.8vw !important;
+        border-radius: 4vw;
+      }
+    }
+  }
+  h4 {
+    font-size: 8vw;
+    text-align: center;
+  }
+}

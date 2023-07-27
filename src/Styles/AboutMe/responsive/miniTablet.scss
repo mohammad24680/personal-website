@@ -1,0 +1,89 @@
+@media screen and (min-width: 576px) {
+  .information_container {
+    padding-top: 8vw;
+  }
+  .information_box {
+    padding-top: 5.5vw;
+  }
+  .first_box {
+    margin-top: 4vw;
+    figure:nth-of-type(1) {
+      img {
+        width: 15vw;
+        height: 15vw;
+      }
+    }
+    h2 {
+      height: 15.3vw;
+      font-size: 5vw;
+      span {
+        font-size: 11vw;
+      }
+    }
+    figure:nth-of-type(2) {
+      top: -2vw;
+      padding-right: 7.2vw;
+      img {
+        width: 50vw;
+        height: 69vw;
+      }
+    }
+  }
+  .personal_information {
+    padding: 7vw 0vw;
+    p {
+      flex: 0 0 80%;
+      font-size: 3.7vw;
+      span {
+        letter-spacing: 2px;
+      }
+    }
+  }
+  .second_box {
+    margin-top: 1vw;
+    h3 {
+      font-size: 5vw;
+      span {
+        font-size: 7.5vw;
+      }
+    }
+  }
+  .personal_details {
+    margin-top: 2vw;
+  }
+  .personal_details_box {
+    flex: 0 0 90%;
+    padding-bottom: 16vw;
+    div {
+      h5 {
+        font-size: 3.4vw;
+        padding-bottom: 20px;
+      }
+      a {
+        font-size: 3.5vw;
+      }
+    }
+  }
+  .cv_button {
+    a {
+      width: 29vw;
+      height: 8vw;
+      font-size: 3vw !important;
+    }
+  }
+  .header_corners_page_number {
+    width: 15vw;
+    height: 15vw;
+    bottom: 1.2vw;
+    right: 1.8vw;
+    p {
+      font-size: 13vw;
+    }
+  }
+  .social_media {
+    display: none;
+  }
+  .left_line {
+    display: none;
+  }
+}

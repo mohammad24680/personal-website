@@ -1,0 +1,234 @@
+.Myskills_items {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  background-image: url(/images/Header/stars-3750824_1280.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 5;
+  background-repeat: no-repeat;
+}
+.Myskills_items_information {
+  padding-top: 4.5vw;
+  margin-top: 65px;
+  position: relative;
+  height: auto;
+}
+.information_box {
+  margin-top: 0.3vw;
+  display: flex;
+  align-items: start;
+  height: auto;
+  z-index: 5;
+  width: auto;
+  justify-content: center;
+  figure:nth-of-type(1) {
+    position: absolute;
+    z-index: 9;
+    img {
+      width: 11vw;
+      height: 11vw;
+    }
+  }
+  h2 {
+    height: 11vw;
+    font-size: 3.2vw;
+    display: flex;
+    z-index: 10;
+    justify-self: center;
+    align-items: center;
+    letter-spacing: 3px;
+    span {
+      font-size: 7vw;
+      color: #d72323;
+    }
+  }
+  figure:nth-of-type(2) {
+    position: absolute;
+    top: -3.8vw;
+    z-index: 5;
+    img {
+      width: 39.931vw;
+      height: 34.445vw;
+      opacity: 75%;
+    }
+  }
+}
+.Items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: 10;
+  padding: 1vw 1vw 2vw 1vw;
+  flex: 0 0 70%;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Items_box {
+  z-index: 10;
+  flex: 0 0 42%;
+  h3 {
+    font-size: 2.4vw;
+    border-bottom: 5px solid white;
+    letter-spacing: 2px;
+    text-align: center;
+    span {
+      color: #da0037;
+      font-size: 3.4vw;
+    }
+  }
+}
+.box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1vw 0vw;
+  p:nth-of-type(1) {
+    font-size: 1.3vw;
+  }
+  p:nth-of-type(2) {
+    font-size: 1.2vw;
+    margin: 0.8vw 0vw;
+  }
+  div {
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    height: 0.4vw;
+    div {
+      background-color: #da0037;
+      height: 100%;
+      border-radius: 25px;
+    }
+  }
+}
+.one {
+  div {
+    width: 95%;
+  }
+}
+.two {
+  div {
+    width: 75%;
+  }
+}
+.three {
+  div {
+    width: 65%;
+  }
+}
+.four {
+  div {
+    width: 75%;
+  }
+}
+.five {
+  div {
+    width: 90%;
+  }
+}
+.six {
+  div {
+    width: 80%;
+  }
+}
+.seven {
+  div {
+    width: 95%;
+  }
+}
+.eight {
+  div {
+    width: 90%;
+  }
+}
+.nine {
+  div {
+    width: 90%;
+  }
+}
+.ten {
+  div {
+    width: 80%;
+  }
+}
+.eleven {
+  div {
+    width: 90%;
+  }
+}
+.twelve {
+  div {
+    width: 90%;
+  }
+}
+.other_skills {
+  flex: 0 0 42%;
+  height: 7.8vw;
+  padding: 1vw 0vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+  h4 {
+    max-width: 95%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    flex: 0 0 95%;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 2.4vw;
+    text-align: center;
+    border-bottom: 3px solid white;
+    span {
+      color: #da0037;
+      font-size: 3vw;
+    }
+  }
+  p {
+    background-color: #da0037;
+    height: 2.4vw;
+    font-size: 1.4vw;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p:nth-of-type(1),
+  p:nth-of-type(2) {
+    width: 5vw;
+  }
+  p:nth-of-type(3) {
+    width: 7vw;
+  }
+  p:nth-of-type(4) {
+    width: 8vw;
+  }
+  p:nth-of-type(5) {
+    width: 6vw;
+  }
+  p:nth-of-type(6) {
+    width: 7vw;
+  }
+  p:nth-of-type(7) {
+    width: 11vw;
+  }
+}
+.corners_page_number {
+  position: absolute;
+  display: flex;
+  width: 8vw;
+  height: 7.8vw;
+  bottom: 1.2vw;
+  border-bottom: 7px solid #da0037;
+  right: 1vw;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 6.8vw;
+    height: 100%;
+  }
+}

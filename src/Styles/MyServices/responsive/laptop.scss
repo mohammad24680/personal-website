@@ -1,0 +1,48 @@
+@media screen and (min-width: 993px) {
+  .Container_First_Item {
+    h2 {
+      font-size: 3vw;
+      flex: 0 0 20%;
+      max-width: 20%;
+      span {
+        font-size: 4vw;
+      }
+    }
+    p {
+      font-size: 1.5vw;
+    }
+  }
+  .Container_Second_Item {
+    margin: 3.45vw 0px;
+    div {
+      width: 21.834vw;
+      height: 19.362vw;
+    }
+    h5 {
+      font-size: 1.5vw;
+    }
+    p {
+      font-size: 1.1vw;
+    }
+    div:nth-of-type(1) {
+      figure:nth-of-type(1) {
+        top: -16.1vw;
+        left: 14vw;
+        img {
+          width: 13.691vw;
+          height: 16.645vw;
+        }
+      }
+    }
+    div:nth-of-type(3) {
+      figure:nth-of-type(1) {
+        top: -10.4vw;
+        right: 12vw;
+        img {
+          width: 20.334vw;
+          height: 14.153vw;
+        }
+      }
+    }
+  }
+}

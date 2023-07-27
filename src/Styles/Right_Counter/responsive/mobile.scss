@@ -1,0 +1,16 @@
+@media screen and (min-width: 320px) {
+  .header_corner_right_midlle {
+    width: 53px;
+    height: 25%;
+    top: 15%;
+    z-index: 4;
+    div {
+      margin: 7px 0px;
+      width: 30px;
+      height: 30px;
+      a {
+        font-size: 13px;
+      }
+    }
+  }
+}

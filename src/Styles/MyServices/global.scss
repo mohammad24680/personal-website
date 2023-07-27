@@ -1,0 +1,109 @@
+.Container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  background-image: url(/images/MyServices/stars-night-sky-vector-23190410.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 5;
+  background-repeat: no-repeat;
+}
+.Container_Items {
+  padding-top: 4.5vw;
+  padding-bottom: 4.5vw;
+  margin-top: 35px;
+  position: relative;
+  height: auto;
+}
+.Container_First_Item {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  h2 {
+    font-size: 3vw;
+    flex: 0 0 20%;
+    border-bottom: 3px solid white;
+    max-width: 20%;
+    margin-bottom: 20px;
+    span {
+      font-size: 4vw;
+      color: #da0037;
+    }
+  }
+  p {
+    width: 100%;
+    font-size: 1.5vw;
+  }
+}
+.Container_Second_Item {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 3.45vw 0px;
+  div {
+    width: 20.834vw;
+    background: white;
+    height: 17.362vw;
+    border-radius: 3vw;
+    margin: 0px 3vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    figure:nth-of-type(2) {
+      flex: 0 0 28%;
+      text-align: center;
+      img {
+        width: 5.487vw;
+      }
+    }
+    h5 {
+      color: #da0037;
+      flex: 0 0 100%;
+      padding: 0.4vw 0px;
+      font-size: 1.5vw;
+      text-align: center;
+    }
+    p {
+      color: #444444;
+      text-align: center;
+      flex: 0 0 85%;
+      font-size: 1.1vw;
+      line-height: 1.5;
+      padding: 0.6vw 0px;
+    }
+  }
+  div:nth-of-type(1) {
+    figure:nth-of-type(1) {
+      position: absolute;
+      top: -14.1vw;
+      left: 17vw;
+      img {
+        width: 11.691vw;
+        height: 14.645vw;
+      }
+    }
+  }
+  div:nth-of-type(2) {
+    figure:nth-of-type(1) {
+      flex: 0 0 28%;
+      text-align: center;
+      img {
+        width: 5.487vw;
+      }
+    }
+  }
+  div:nth-of-type(3) {
+    figure:nth-of-type(1) {
+      position: absolute;
+      top: -9vw;
+      right: 13.5vw;
+      img {
+        width: 18.334vw;
+        height: 12.153vw;
+      }
+    }
+  }
+}

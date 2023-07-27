@@ -1,0 +1,45 @@
+@media screen and (min-width: 1440px) {
+  .first_box {
+    margin-top: 0.6vw;
+    figure:nth-of-type(2) {
+      top: -2vw;
+      img {
+        width: 31.278vw;
+        height: 45.375vw;
+      }
+    }
+  }
+  .personal_information {
+    padding: 5vw 0vw 3vw 0vw;
+    p {
+      flex: 0 0 55%;
+      font-size: 1.5vw;
+    }
+  }
+  .second_box {
+    margin-top: 2vw;
+    h3 {
+      font-size: 2.4vw;
+    }
+    span {
+      font-size: 3.5vw;
+    }
+  }
+  .personal_details_box {
+    flex: 0 0 59%;
+    div {
+      h5 {
+        font-size: 1.3vw;
+      }
+      a {
+        font-size: 1.4vw;
+      }
+    }
+  }
+  .cv_button {
+    a {
+      width: 12.5vw;
+      height: 3.2vw;
+    }
+  }
+}

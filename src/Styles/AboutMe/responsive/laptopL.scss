@@ -1,0 +1,67 @@
+@media screen and (min-width: 1201px) {
+  .information_container {
+    padding-top: 4vw;
+  }
+  .first_box {
+    margin-top: 2.8vw;
+    figure:nth-of-type(1) {
+      img {
+        width: 9.7vw;
+        height: 9.7vw;
+      }
+    }
+    h2 {
+      height: 9.7vw;
+      font-size: 2.8vw;
+      span {
+        font-size: 6vw;
+      }
+    }
+    figure:nth-of-type(2) {
+      top: -0.8vw;
+      padding-right: 5vw;
+      img {
+        width: 33.278vw;
+        height: 47.375vw;
+      }
+    }
+  }
+  .personal_information {
+    padding: 4vw 0vw 3vw 0vw;
+    p {
+      flex: 0 0 63%;
+    }
+  }
+  .second_box {
+    margin-top: 0.2vw;
+    h3 {
+      font-size: 2vw;
+      span {
+        font-size: 3.5vw;
+      }
+    }
+  }
+  .personal_details_box {
+    flex: 0 0 65%;
+    div {
+      padding: 3vw 0px;
+      width: 30%;
+      h5 {
+        font-size: 1.4vw;
+      }
+      a {
+        font-size: 1.7vw;
+      }
+    }
+  }
+  .cv_button {
+    a {
+      width: 12vw;
+      height: 3.4vw;
+      font-size: 1.25vw !important;
+    }
+  }
+  .header_corners_page_number {
+    height: 7.8vw;
+  }
+}

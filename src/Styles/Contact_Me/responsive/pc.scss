@@ -1,0 +1,20 @@
+@media screen and (min-width: 1440px) {
+  .ContactMe_items {
+    padding-top: 4vw;
+  }
+  .form {
+    figure {
+      position: absolute;
+      top: -20vw;
+      img {
+        width: 20.4862vw;
+        height: 27.5vw;
+      }
+    }
+  }
+  .social_media {
+    > figure {
+      right: 18vw;
+    }
+  }
+}

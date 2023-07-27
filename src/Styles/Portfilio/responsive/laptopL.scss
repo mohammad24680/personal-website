@@ -1,0 +1,55 @@
+@media screen and (min-width: 1201px) {
+  .MyPortfolio_items {
+    padding-top: 3vw;
+  }
+  .Items {
+    flex: 0 0 95%;
+    max-width: 95%;
+    div {
+      width: 37%;
+      p:nth-of-type(1) {
+        padding: 10px;
+        font-size: 1.5vw;
+      }
+      p:nth-of-type(2) {
+        font-size: 4vw;
+      }
+      a {
+        flex: 0 0 100%;
+        figure {
+          img {
+            width: 35.056vw;
+            height: 23.806vw;
+            border-radius: 0.5vw;
+          }
+        }
+      }
+    }
+  }
+  .see_more {
+    div {
+      a {
+        width: 13vw;
+        height: 3.5vw;
+        font-size: 1.7vw !important;
+      }
+    }
+  }
+  .side_images {
+    > figure:nth-of-type(1) {
+      top: 11vw;
+      img {
+        width: 53vw;
+      }
+    }
+    > figure:nth-of-type(2) {
+      bottom: 28vw;
+      img {
+        width: 53vw;
+      }
+    }
+  }
+  .corners_page_number {
+    height: 7.8vw;
+  }
+}

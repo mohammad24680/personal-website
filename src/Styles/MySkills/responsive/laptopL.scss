@@ -1,0 +1,35 @@
+@media screen and (min-width: 1201px) {
+  .Myskills_items {
+    padding-top: 7vw;
+  }
+  .information_box {
+    figure:nth-of-type(2) {
+      top: -3.8vw;
+      img {
+        width: 39.931vw;
+        height: 34.445vw;
+        opacity: 75%;
+      }
+    }
+  }
+  .Items {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .box {
+    p:nth-of-type(1) {
+      font-size: 1.3vw;
+    }
+    p:nth-of-type(2) {
+      font-size: 1.2vw;
+      margin: 0.8vw 0vw;
+    }
+  }
+  .other_skills {
+    height: 14.8vw;
+    padding: 1vw 0vw;
+  }
+  .corners_page_number {
+    height: 7.8vw;
+  }
+}

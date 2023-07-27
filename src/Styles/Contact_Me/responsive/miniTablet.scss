@@ -1,0 +1,129 @@
+@media screen and (min-width: 576px) {
+  .ContactMe_items {
+    padding-top: 15vw;
+  }
+  .ContactMe_items_information {
+    padding-top: 6.5vw;
+    padding-bottom: 21vw;
+    flex-wrap: wrap;
+  }
+  .information_box {
+    margin-bottom: 19vw;
+    figure:nth-of-type(1) {
+      img {
+        width: 17vw;
+        height: 17vw;
+      }
+    }
+    h2 {
+      height: 17vw;
+      font-size: 5vw;
+      span {
+        font-size: 11vw;
+      }
+    }
+  }
+  .form,
+  .social_media {
+    width: 57.903vw;
+    height: 70.32vw;
+    margin: 0px 3vw;
+  }
+  .form {
+    margin: 18vw 0vw 25vw 0vw;
+    figure {
+      top: -17vw;
+      left: 45vw;
+      img {
+        width: 38.4862vw;
+        height: 49.5vw;
+      }
+    }
+    h4 {
+      font-size: 5.1vw;
+    }
+    div {
+      flex: 0 0 98%;
+      max-width: 98%;
+      input {
+        padding: 4.5vw 0vw;
+        height: 7vw;
+        font-size: 2vw;
+      }
+      textarea {
+        height: 25vw;
+        padding: 1vw 0vw;
+        font-size: 2vw;
+      }
+    }
+  }
+  .Click_Me {
+    button {
+      font-size: 4.5vw;
+    }
+  }
+
+  .social_media {
+    > figure {
+      top: 92vw;
+      right: 26vw;
+      img {
+        width: 48.6118vw;
+        height: 33.667vw;
+      }
+    }
+    > div {
+      padding: 3.2vw 0px;
+      flex: 0 0 100%;
+      h5 {
+        font-size: 2.2vw;
+      }
+      a {
+        font-size: 2.2vw;
+      }
+    }
+  }
+  .main_header {
+    font-size: 4.5vw;
+  }
+  .header_corner_right_midlle {
+    height: 22%;
+    div {
+      width: 6.125vw;
+      height: 6.125vw;
+      a {
+        font-size: 3vw !important;
+      }
+    }
+  }
+  .corners_page_number {
+    height: 15.2vw;
+    width: 15vw;
+    right: 1.8vw;
+    bottom: 1.2vw;
+    p {
+      font-size: 13vw;
+    }
+  }
+  .side_images {
+    > figure:nth-of-type(1) {
+      position: absolute;
+      bottom: 162vw;
+      transform: rotateZ(90deg);
+      left: -25vw;
+      z-index: 1;
+      img {
+        width: 80vw;
+      }
+    }
+    > figure:nth-of-type(2) {
+      position: absolute;
+      bottom: 56.5vw;
+      right: -27vw;
+      z-index: 1;
+      img {
+        width: 75vw;
+      }
+    }
+  }
+}

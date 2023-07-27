@@ -1,0 +1,91 @@
+@media screen and (min-width: 768px) {
+  .MyPortfolio_items {
+    padding-top: 7vw;
+  }
+  .information_box {
+    width: 96.5%;
+    figure:nth-of-type(1) {
+      img {
+        width: 12vw;
+        height: 12vw;
+      }
+    }
+    h2 {
+      height: 12vw;
+      font-size: 3.5vw;
+      span {
+        font-size: 8vw;
+      }
+    }
+    figure:nth-of-type(2) {
+      img {
+        width: 37.987vw;
+        height: 45.417vw;
+      }
+    }
+  }
+  .social_media {
+    display: block;
+  }
+  .Items {
+    flex: 0 0 95%;
+    max-width: 95%;
+    margin-left: 0;
+    div {
+      width: 38%;
+      padding: 1vw 0px;
+      p:nth-of-type(1) {
+        padding: 10px;
+        font-size: 1.9vw;
+      }
+      p:nth-of-type(2) {
+        font-size: 5vw;
+      }
+      a {
+        flex: 0 0 100%;
+        figure {
+          img {
+            width: 36.056vw;
+            height: 24.806vw;
+            border-radius: 0.5vw;
+          }
+        }
+      }
+    }
+  }
+  .see_more {
+    margin-top: 0vw;
+    margin-bottom: 8vw;
+    width: 96.5%;
+    div {
+      a {
+        width: 15vw;
+        height: 4vw;
+        font-size: 1.9vw !important;
+        border-radius: 2vw;
+      }
+    }
+  }
+  .side_images {
+    > figure:nth-of-type(1) {
+      top: 15vw;
+      img {
+        width: 47vw;
+      }
+    }
+    > figure:nth-of-type(2) {
+      bottom: 33vw;
+      img {
+        width: 47vw;
+      }
+    }
+  }
+  .corners_page_number {
+    height: 10.5vw;
+    width: 10.6vw;
+    right: 1vw;
+    p {
+      font-size: 9vw;
+    }
+  }
+}

@@ -1,0 +1,122 @@
+@media screen and (min-width: 320px) {
+  .Navbar_header_menu {
+    z-index: 25;
+    position: fixed;
+    width: 100%;
+    height: 10.5%;
+    nav {
+      width: 0%;
+    }
+  }
+  .button {
+    top: 28%;
+  }
+  .hamburger_menu {
+    display: block;
+    ul {
+      z-index: 25;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      right: 0%;
+      top: 100%;
+      height: auto;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      li {
+        padding: 20px 0px;
+      }
+      li::before {
+        content: "";
+        display: none;
+      }
+    }
+  }
+  .main_menu {
+    display: none;
+  }
+  .header_head_top {
+    z-index: 20;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 10.472vh;
+  }
+  .head_top_logo {
+    top: 18%;
+    z-index: 5;
+    figure {
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .header_corner_right_top {
+    display: contents;
+  }
+  .header_corner_information {
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    h3:nth-of-type(1) {
+      border-bottom: none;
+      height: auto;
+      color: #ffffff;
+      font-size: 16px;
+      padding-bottom: 8px;
+    }
+    figure {
+      display: none;
+    }
+    h3:nth-of-type(2) {
+      font-size: 18px;
+      padding-left: 0px;
+      span {
+        color: #da0037;
+      }
+    }
+  }
+}
+@media screen and (min-width: 576px) {
+  .head_top_logo {
+    top: 15%;
+    figure {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .header_corner_right_top {
+    display: contents;
+  }
+  .header_corner_information {
+    height: 100%;
+    h3:nth-of-type(1) {
+      font-size: 18px;
+    }
+    h3:nth-of-type(2) {
+      font-size: 18px;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    top: 30%;
+  }
+  .header_head_top {
+    height: 11.472vh;
+    figure {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .head_top_logo {
+    top: 17%;
+  }
+  .header_corner_right_top {
+    display: contents;
+  }
+}

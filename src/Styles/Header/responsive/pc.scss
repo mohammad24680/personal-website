@@ -1,0 +1,45 @@
+@media screen and (min-width: 1440px) {
+  .header_head_top {
+    height: 8.237vh;
+  }
+  .header_corner_image {
+    top: -6.5vw;
+    figure {
+      img {
+        width: 18.75vw;
+        height: 18.75vw;
+      }
+    }
+  }
+  .header_main {
+    height: 92%;
+  }
+  .header_main_left_piece {
+    margin-top: -25vw;
+    figure {
+      img {
+        width: 8.7vw;
+        height: 8.7vw;
+      }
+    }
+    h2 {
+      font-size: 3.5vw;
+      padding-left: 2vw;
+      span {
+        font-size: 6vw;
+      }
+    }
+  }
+  .header_name_information {
+    h1 {
+      font-size: 7vw;
+    }
+    figure {
+      margin-left: 5vw;
+      img {
+        width: 31vw;
+        height: 42vw;
+      }
+    }
+  }
+}

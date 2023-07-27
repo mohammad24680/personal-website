@@ -1,0 +1,17 @@
+@media screen and (min-width: 1440px) {
+  .header_corner_right_midlle {
+    z-index: 1;
+    width: 5.1vw;
+    height: 64%;
+    div {
+      width: 2.5vw;
+      height: 2.5vw;
+      a {
+        font-size: 1vw;
+      }
+    }
+  }
+  .header_corner_right_midlle::before {
+    width: calc(-6% + 0.5vw);
+  }
+}
