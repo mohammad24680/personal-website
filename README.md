@@ -4,7 +4,7 @@
 
 - Developed by mohammad bagheri
 
-- Technologies Used - Html , css , js 
+- Technologies Used - Html , css , js , react js
 
 - Role - Frontend
 
