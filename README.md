@@ -1,3 +1,15 @@
+# personal-website
+
+![Mohammad Bagheri](https://github.com/mohammad24680/personal-website/assets/71064028/29db3ed8-7924-4513-aa92-1f9fcbfb7dd4)
+
+- Developed by mohammad bagheri
+
+- Technologies Used - Html , css , js 
+
+- Role - Frontend
+
+- How to reach me : with my [linkedin](https://www.linkedin.com/in/mohammad-bagheri-developer/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
